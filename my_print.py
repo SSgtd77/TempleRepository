@@ -1,3 +1,5 @@
+LINE=5
+
 def print_text(txt):
     if isinstance(txt, str):
         print(txt)
@@ -27,13 +29,13 @@ def print_lst(lst):
 if __name__ == "__main__":
     print_text("Hello Fucing World!")
     print_text(125)
-    print("-------")
+    print(LINE*"-")
     print_int(258)
     print_int("Hello")
-    print("-------")
+    print(LINE*"-")
     print_flt(5.26)
     print_flt(5)
-    print("-------")
+    print(LINE*"-")
     lst = [num for num in range(1, 5)]
     print_lst(lst)
     print_lst(50)
