@@ -15,6 +15,6 @@ if __name__ == "__main__":
     print_text("Hello Fucing World!")
     print_text(125)
     print("\n")
-    print_text(258)
-    print_text("Hello")
+    print_int(258)
+    print_int("Hello")
 
