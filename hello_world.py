@@ -3,10 +3,14 @@ def hello_world():
 
 
 def print_text(txt):
-    print(txt)
+    if isinstance(txt, str):
+        print(txt)
+    else:
+        print(f"{txt} is not string")
 
 
 if __name__ == "__main__":
     hello_world()
     print_text("Hello Fucing World!")
+    print_text(125)
 
