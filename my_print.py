@@ -1,4 +1,4 @@
-LINE=5
+LINE=7
 
 def print_text(txt):
     if isinstance(txt, str):

@@ -1,4 +1,4 @@
-LINE=5
+LINE=7
 
 def input_text():
     inputTxt = input("Enter any text: ")
